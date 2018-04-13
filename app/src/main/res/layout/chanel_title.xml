@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/line_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_divider_line_height"
+        android:background="@color/menu_divider_line_color"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="我的应用"
+            android:id="@+id/title"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/menu_group_text_size"
+            android:textColor="@color/menu_group_title_color"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text=""
+            android:textSize="@dimen/menu_drag_tips_size"
+            android:textColor="@color/press_drag_tips_color"/>
+    </RelativeLayout>
+
+</LinearLayout>

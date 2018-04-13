@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Channel_Edit</string>
+    <string name="edit_btn_string">编辑</string>
+    <string name="finish_btn_string">完成</string>
+    <string name="menu_title_string">菜单编辑</string>
+    <string name="press_drag_tip_string">按住拖动调整位置</string>
+    <string name="over_beyond_max_tips">超过了可以添加的上限</string>
+    <integer name="column_num_string">4</integer><!--列表显示的列数-->
+    <integer name="max_add_menu_number">8</integer><!--可添加的最多菜单数-->
+    <string name="get_atok_ip"></string><!--获取ATOK的服务器地址-->
+    <!---密码加密方式-->
+    <string name="pw_encode">1</string><!--1为不加密，2为md5加密，3为sha1加密,4为先md5后AES-->
+    <!---登录接口选择-->
+    <string name="login_interface_type">1</string><!--1为(不加密、md5加密、sha1加密)，2为先md5后AES，3为可变方式-->
+</resources>

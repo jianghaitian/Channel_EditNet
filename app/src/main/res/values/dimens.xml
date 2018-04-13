@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_navigation_minheight">50dip</dimen>
+    <dimen name="font_size_middle">15sp</dimen>
+    <dimen name="default_icon_width">48dp</dimen>
+
+    <!--设置参数-->
+    <dimen name="menu_layout_margin_width">5dp</dimen><!--菜单栏边距-->
+    <dimen name="menu_divider_line_height">10dp</dimen><!--菜单栏分割线的高度-->
+    <dimen name="menu_group_text_size">18sp</dimen><!--菜单组标题字体大小-->
+    <dimen name="menu_drag_tips_size">15sp</dimen><!--菜单拖拽提示语字体大小-->
+    <dimen name="menu_module_title_size">14sp</dimen><!--菜单拖拽提示语字体大小-->
+    <dimen name="menu_bg_sideline_width">1dp</dimen><!--菜单栏背景边线宽度-->
+    <dimen name="menu_bg_sideline_corners_radius">5dp</dimen><!--菜单栏背景边线圆角弧度-->
+    <dimen name="menu_icon_width_height">45dp</dimen><!--菜单模块图标大小-->
+    <dimen name="menu_add_delete_btn_wid_hg">16dp</dimen><!--菜单添加删除按钮的大小-->
+</resources>

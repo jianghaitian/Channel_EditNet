@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/menu_image"
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/menu_icon_width_height"
+            android:layout_height="@dimen/menu_icon_width_height"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/menu_image"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/textview_bg"
+            android:gravity="center"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/menu_module_title_size"
+        android:textColor="@color/menu_item_title_color"
+        android:layout_marginTop="5dp"
+        android:text="标题" />
+
+</LinearLayout>

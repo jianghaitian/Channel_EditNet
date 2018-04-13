@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/default_navigation_minheight"
+    android:minHeight="@dimen/default_navigation_minheight"
+    android:background="@color/navigation_background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:onClick="onClick">
+
+        <ImageView
+            android:id="@+id/logo_image_back"
+            android:layout_width="@dimen/default_icon_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            android:background="@drawable/common_tab_bg"
+            android:src="@drawable/ic_navigation_back" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="@dimen/default_icon_width"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="取消"
+            android:gravity="center"
+            android:background="@drawable/common_tab_bg"
+            android:textColor="@color/default_white_text_color"
+            android:textSize="@dimen/font_size_middle"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="菜单编辑"
+            android:textColor="@color/default_white_text_color"
+            android:textSize="@dimen/font_size_middle"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/edit_save_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/font_size_middle"
+        android:textColor="@color/default_white_text_color"
+        android:layout_alignParentRight="true"
+        android:text=""/>
+
+</RelativeLayout>
